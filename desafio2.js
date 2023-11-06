@@ -53,26 +53,6 @@ class ProductManager {
     }
   }
 
-  // async updateProduct(id) {
-  //   const producto = this.products.find((prod) => prod.id === id);
-
-  //   if (!producto) {
-  //     return console.log("No se puede actualizar, el producto no existe");
-  //   }
-
-  //   try {
-
-
-  //     await fs.promises.writeFile(
-  //       this.path,
-  //       JSON.stringify(this.products, null, "\t")
-  //     );
-  //   } catch (error) {
-  //     console.log(`Hubo un error al guardar los datos: ${error}`);
-  //     return;
-  //   }
-  // }
-
   getProducts() {
     console.log(this.products);
   }
